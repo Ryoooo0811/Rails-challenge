@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap";
+ @import 'font-awesome-sprockets';
+ @import 'font-awesome';
+
+ .ml-auto, .mx-auto {
+   margin-left: auto;
+ }
+
+ .mx-auto {
+   float: center;
+ }
